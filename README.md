@@ -1,6 +1,18 @@
 # spike-vuetifyjs-nuxt
 
-> Nuxt.js + Vuetify.js project
+> Webservice Admin Panel, made with Nuxt.js + Vuetify.js
+
+## Step 1
+# Architecture
+
+## Step 2
+# Middleware
+
+## Step 3
+# Login
+
+
+
 
 ## Build Setup
 
