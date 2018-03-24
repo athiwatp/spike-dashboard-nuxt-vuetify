@@ -7,3 +7,7 @@ export const mutations = {
     state.sidebar = !state.sidebar
   }
 }
+
+export const modules = {
+  
+}
