@@ -2,15 +2,17 @@
 
 > Webservice Admin Panel, made with Nuxt.js + Vuetify.js
 
-## Step 1
-# Architecture
+# Step 1
+## Architecture
 
-## Step 2
-# Middleware
+# Step 2
+## Middleware
 
-## Step 3
-# Login
+# Step 3
+## Test
 
+# Step 4
+## Features 
 
 
 
