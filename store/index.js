@@ -1,5 +1,6 @@
 export const state = () => ({
-  sidebar: false
+  sidebar: false,
+  title: 'Hello! welcome to my dashboard'
 })
 
 export const mutations = {
@@ -8,6 +9,8 @@ export const mutations = {
   }
 }
 
-export const modules = {
-  
+export const getters = {
+  getTitle (state) {
+    return state.title
+  }
 }
