@@ -12,10 +12,12 @@ _Exploring Nuxt.js + Vuetify.js, try to build a MVC architecture._
 _Using unit tests to design functionalites._
 
 ### Using AVA 
-Inspired by https://codeburst.io/nuxt-unit-snapshot-testing-a3dc7cb79ec1, solve Snapshot & e2e(Routes) test issue.
+Inspired by https://codeburst.io/nuxt-unit-snapshot-testing-a3dc7cb79ec1, solve Snapshot test issue.
 Remaining:
+ * e2e tests
  * Module tests
  * Middleware tests
+ 
  
 ## Step 3 - Modules
 _Modules should give basic page functionalities & model comunication_

@@ -25,6 +25,15 @@ test('Route / exits and render HTML', async t => {
   t.true(html.includes('Hello Hello'))
 })
 
+//Route inspire containts: "First, solve the problem. Then, write the code."
+// Example of testing only generated html
+test('Route /inspire exits and render HTML', async t => {
+  const { html } = await nuxt.renderRoute('/inspire', {})
+
+  t.true(html.includes('First, solve the problem. Then, write the code.'))
+})
+
+
 // Close server and ask nuxt to stop listening to file changes
 test.after('Closing server and nuxt.js', t => {
   nuxt.close()
