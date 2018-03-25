@@ -3,19 +3,25 @@
 > Webservice Admin Panel, made with Nuxt.js + Vuetify.js
 
 # Step 1 - Architecture
- Exploring Nuxt.js + Vuetify.js, try to build a MVC architecture.
+_Exploring Nuxt.js + Vuetify.js, try to build a MVC architecture._
+ * Using Pages as Views
+ * Using Modules as Controllers (Vuex Modules)
+ * Using Middleware as Model (& plugins)
 
-# Step 2 - Middleware
- Exploring Middleware functionalities.
+# Step 2 - Test
+_Using unit tests to design functionalites._
+ 
+# Step 3 - Modules
+_Modules should give basic page functionalities & model comunication_
 
-# Step 3 - Test
- Using unit tests to design functionalites.
+# Step 4 - Middleware
+_Exploring Middleware functionalities._
 
-# Step 4 - Views 
- Design fullyfeatured pages for a Admin Panel.
+# Step 5 - Views 
+_Design fullyfeatured pages for a Admin Panel._
 
-# Step 5 - Authorization
- Using authorirazion to limitate user access.
+# Step 6 - Authorization
+_Using authorirazion to limitate user access._
 
 
 ## Build Setup
