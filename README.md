@@ -8,8 +8,12 @@ _Exploring Nuxt.js + Vuetify.js, try to build a MVC architecture._
  * Using Modules as Controllers (Vuex Modules)
  * Using Middleware as Model (& plugins)
 
-## Step 2 - Test
+## Step 2 - Tests
 _Using unit tests to design functionalites._
+ * Snapshot tests: https://codeburst.io/nuxt-unit-snapshot-testing-a3dc7cb79ec1
+ * Module tests:
+ * Middleware tests:
+ * e2e:
  
 ## Step 3 - Modules
 _Modules should give basic page functionalities & model comunication_
