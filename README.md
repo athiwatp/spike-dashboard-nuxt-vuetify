@@ -6,7 +6,7 @@
  Exploring Nuxt.js + Vuetify.js, try to build a MVC architecture.
 
 # Step 2 - Middleware
- Exploring Middleware functionalities to help VMs.
+ Exploring Middleware functionalities.
 
 # Step 3 - Test
  Using unit tests to design functionalites.
