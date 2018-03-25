@@ -1,6 +1,10 @@
 # Webservice Admin Panel (spike-vuetifyjs-nuxt)
-
 > Webservice Admin Panel, made with Nuxt.js + Vuetify.js
+
+Nuxt.js integrates:
+- VueJS2
+- Routes
+- Vuex
 
 ## Step 1 - Architecture
 _Exploring Nuxt.js + Vuetify.js, try to build a MVC architecture._
@@ -26,7 +30,7 @@ _Modules should give basic page functionalities & model comunication_
 _Exploring Middleware functionalities._
 
 ## Step 5 - Views 
-_Design fullyfeatured pages for a Admin Panel._
+_Design full-featured pages for a Admin Panel._
 
 ## Step 6 - Authorization
 _Using authorirazion to limitate user access._
