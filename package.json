@@ -46,9 +46,7 @@
       "./test/setup.js"
     ],
     "files": [
-      "./test/specs/*.js",
-      "./test/ctrls/*.js"
-     
+      "./test/specs/*.js"     
     ],
     "snapshotDir": "./test/snapshots"
   },
