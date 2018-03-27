@@ -14,3 +14,12 @@
     </v-flex>
   </v-layout>
 </template>
+<script>
+  export default {
+    data () {
+      return {
+        test: 'foo'
+      }
+    }
+  }
+</script>

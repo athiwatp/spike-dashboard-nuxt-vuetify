@@ -21,7 +21,6 @@ test.before('Init Nuxt.js', async t => {
 // Example of testing only generated html
 test('Route / exits and render HTML', async t => {
   const { html } = await nuxt.renderRoute('/', {})
-
   t.true(html.includes('Hello Hello'))
 })
 

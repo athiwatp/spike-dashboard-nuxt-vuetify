@@ -16,10 +16,9 @@ test('List.vue snapshot', (t) => {
  t.snapshot({ html: wrapper.html() })
 })
 
-// test('List.vue to display list', (t) => {
-//   const $items = wrapper.findAll('li').wrappers
-
-//   $items.forEach(($item, index) => {
-//     t.is($item.text(), list[index])
-//   })
-// })
+test('List.vue to display list', (t) => {
+  const $items = wrapper.findAll('li').wrappers
+  $items.forEach(($item, index) => {
+    t.is($item.text(), list[index])
+  })
+})
