@@ -78,7 +78,8 @@
     </v-navigation-drawer> -->
 
     <v-footer :fixed="fixed" app>
-      <span>&copy; 2018</span>
+      <!-- <span>&copy; 2018</span> -->
+      <span>Created with <a href="https://nuxtjs.org/" target="_blank">NuxtJs</a> + <a href="https://vuetifyjs.com" target="_blank">Vuetify</a></span>
     </v-footer>
 
   </v-app>

@@ -1,6 +1,6 @@
 import test from 'ava'
 import { mount } from '@vue/test-utils'
-import List from '../../components/List'
+import List from '../../components/Examples/List'
 
 let wrapper
 
