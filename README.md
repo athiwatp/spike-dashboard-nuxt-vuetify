@@ -17,6 +17,9 @@ _Using unit tests to design functionalites._
 
 ### Using AVA 
 Inspired by https://codeburst.io/nuxt-unit-snapshot-testing-a3dc7cb79ec1, solve Snapshot test issue.
+- Testing Sign In component.
+- [TODO] Test Sign up component.
+
 Remaining:
  * e2e tests
  * Module tests
