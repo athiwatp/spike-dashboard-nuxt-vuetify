@@ -6,13 +6,20 @@ Nuxt.js integrates:
 - Routes
 - Vuex
 
-## Step 1 - Architecture
+ ## Example: Telegram bot console
+Main Features:
+ * Login
+ * General settings
+ * Autoresponder settings
+ * Service logs
+
+## Architecture
 _Exploring Nuxt.js + Vuetify.js, try to build a MVC architecture._
  * Using Pages as Views
  * Using Modules as Controllers (Vuex Modules)
  * Using Middleware as Model (& plugins)
-
-## Step 2 - Tests
+ 
+## Tests
 _Using unit tests to design functionalites._
 
 ### Using AVA 
@@ -25,18 +32,31 @@ Remaining:
  * Module tests
  * Middleware tests
  
+ ## Views 
+_Design full-featured pages for a Admin Panel._
+Pages
+ * #### Home => Login Feature
+ * #### Configs => General Settings Feature
+ * #### Replies => Autoresponder Feature
+ * #### Logs => Service Logs Feature
  
-## Step 3 - Modules
+## Modules
 _Modules should give basic page functionalities & model comunication_
-
+ #### Home
+ Provides authentication functionality.
+ 
+ #### Configs
+ CRUD on DB
+ 
+ #### Replies
+ CRUD on DB
+ 
+ #### Logs
+ Read from db
+ 
 ## Step 4 - Middleware
 _Exploring Middleware functionalities._
 
-## Step 5 - Views 
-_Design full-featured pages for a Admin Panel._
-
-## Step 6 - Authorization
-_Using authorirazion to limitate user access._
 
 ## Dependecies
 * VueJS2
