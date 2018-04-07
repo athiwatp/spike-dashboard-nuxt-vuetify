@@ -62,7 +62,7 @@
 export default {
   data () {
     return {
-      dialog1: true
+      dialog1: false
     }
   },
   computed: {

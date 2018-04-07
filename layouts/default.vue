@@ -94,7 +94,9 @@
         fixed: false,
         items: [
           { icon: 'apps', title: 'Welcome', to: '/' },
-          { icon: 'bubble_chart', title: 'Inspire', to: '/inspire' }
+          { icon: 'settings', title: 'Config', to: '/config' },
+          { icon: 'autorenew', title: 'Autoresponder', to: '/replies' },
+          { icon: 'list', title: 'Logs', to: '/logs' }
         ],
         miniVariant: false,
         right: true,
