@@ -5,7 +5,7 @@
 _Admin page:_
  * Connection strings to other services
  * Connection strings to database
- * Log events
+ * Logs
 
 _Feature specific page:_
  * Edit features params
