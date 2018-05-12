@@ -2,13 +2,15 @@
 > Webservice Admin Panel, made with Nuxt.js + Vuetify.js
 
 ## GOAL: having a working admin panel for a Telegram bot
-Admin page:
+_Admin page:_
  * Connection strings to other services
  * Connection strings to database
  * Log events
-Feature specific page:
+
+_Feature specific page:_
  * Edit features params
-Authentication: 
+
+_Authentication:_ 
  * Restrict access & Login
 
 ## Step 1 - Architecture
