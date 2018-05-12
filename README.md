@@ -1,10 +1,15 @@
 # Webservice Admin Panel (spike-vuetifyjs-nuxt)
 > Webservice Admin Panel, made with Nuxt.js + Vuetify.js
 
-Nuxt.js integrates:
-- VueJS2
-- Routes
-- Vuex
+## GOAL: having a working admin panel for a Telegram bot
+Admin page:
+ * Connection strings to other services
+ * Connection strings to database
+ * Log events
+Feature specific page:
+ * Edit features params
+Authentication: 
+ * Restrict access & Login
 
 ## Step 1 - Architecture
 _Exploring Nuxt.js + Vuetify.js, try to build a MVC architecture._
