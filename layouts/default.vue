@@ -24,7 +24,6 @@
         </v-list-tile>
       </v-list>
     </v-navigation-drawer>
-
     <v-toolbar fixed app :clipped-left="clipped">
       <v-toolbar-side-icon @click="drawer = !drawer"></v-toolbar-side-icon>
       <!-- <v-btn
@@ -60,7 +59,6 @@
         <nuxt />
       </v-container>
     </v-content>
-
     <!-- <v-navigation-drawer
       temporary
       :right="right"
@@ -76,15 +74,15 @@
         </v-list-tile>
       </v-list>
     </v-navigation-drawer> -->
-
     <v-footer :fixed="fixed" app>
       <span>&copy; 2018</span>
     </v-footer>
-
   </v-app>
 </template>
 
 <script>
+  import List from '~/components/List'
+
   export default {
     data () {
       return {
@@ -93,13 +91,16 @@
         fixed: false,
         items: [
           { icon: 'apps', title: 'Welcome', to: '/' },
-          { icon: 'bubble_chart', title: 'Inspire', to: '/inspire' }
+          { icon: 'bubble_chart', title: 'Erogated Posts', to: '/erogated_posts' }
         ],
         miniVariant: false,
         right: true,
         rightDrawer: false,
         title: 'Vuetify.js'
       }
+    },
+    components: {
+      List
     }
   }
 </script>

@@ -5,15 +5,13 @@
     </li>
   </ul>
 </template>
-
 <script>
   export default {
-    name: 'list',
     props: {
       list: {
         type: Array,
-        required: true,
-      },
-    },
+        required: true
+      }
+    }
   }
 </script>
