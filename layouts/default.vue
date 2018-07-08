@@ -91,7 +91,8 @@
         fixed: false,
         items: [
           { icon: 'apps', title: 'Welcome', to: '/' },
-          { icon: 'bubble_chart', title: 'Erogated Posts', to: '/erogated_posts' }
+          { icon: 'bubble_chart', title: 'Erogated Posts', to: '/erogated_posts' },
+          { icon: 'apps', title: 'Reddit Service Logs', to: '/redditservice_logs' }
         ],
         miniVariant: false,
         right: true,

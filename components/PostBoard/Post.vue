@@ -4,21 +4,20 @@
         :src="card.src"
         height="200px"
     >
-        <v-container fill-height fluid>
-        <v-layout fill-height>
-            <v-flex xs12 align-end flexbox>
-            <span class="headline white--text" v-text="card.title"></span>
-            </v-flex>
-        </v-layout>
-        </v-container>
     </v-card-media>
+    <v-card-title primary-title>
+        <div>
+            <h3 class="headline mb-0">{{card.title}}</h3>
+            <!-- <div>Located two hours south of Sydney in the <br>Southern Highlands of New South Wales, ...</div> -->
+        </div>
+    </v-card-title>
     <v-card-actions>
         <v-spacer></v-spacer>
         <v-btn icon>
-        <v-icon>favorite</v-icon>
+        <img src="/reddit.png"/>
         </v-btn>
         <v-btn icon>
-        <v-icon>bookmark</v-icon>
+        <v-icon>image</v-icon>
         </v-btn>
       </v-card-actions>
   </v-card>

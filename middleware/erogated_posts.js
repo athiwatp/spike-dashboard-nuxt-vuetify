@@ -3,7 +3,7 @@ import axios from 'axios'
 export default function ({ store, route }) {
   // axios.get('http://my-stats-api.com')
   console.log('running middleware')
-  axios.get('https://xxxxxxx.firebaseio.com/erogated_posts.json')
+  axios.get('https://xxxxxxxxxxx.firebaseio.com/erogated_posts.json')
     .then(function (response) {
       var result = []
       for (var p in response.data) {

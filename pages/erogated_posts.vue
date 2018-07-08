@@ -1,8 +1,9 @@
 <template>
   <v-layout>
     <v-flex text-xs-center>
-      <img src="/v.png" alt="Vuetify.js" class="mb-5">
-      <header>{{erogated_posts.title}}</header>
+      <h1>{{erogated_posts.title}}</h1>
+      <br>
+      <hr>
       <post-board :cards="getters"></post-board>
     </v-flex>
   </v-layout>
